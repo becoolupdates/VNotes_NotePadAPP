@@ -2,7 +2,7 @@
 "Our note-taking app has clear notes, delete feature, secure login, easy account creation, simple UI, sorted notes and date/time stamp. Perfect for staying organized! 📝💡"
 
 
-
+*******************************************************************************************************************************************************
 
 Full Information about My app:
 "Introducing a new and improved note-taking app that makes keeping track of your thoughts and ideas a breeze. With its clear and user-friendly interface, you'll be able to easily navigate and manage your notes. Here's a detailed overview of the app's features:
@@ -22,3 +22,4 @@ Full Information about My app:
 7.Date and Time Stamp: Each note is automatically stamped with the date and time it was created, allowing you to easily keep track of when you made each note.
 
 With its robust set of features and user-friendly design, this note-taking app is the perfect tool for anyone who wants to stay organized and on top of their thoughts and ideas."
+******************************************************************************************************************************************************
