@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateAccountActivity">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/signupimage"
+        android:id="@+id/signup_img"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical"
+         android:gravity="center"
+         android:layout_marginTop="10dp"
+         android:id="@+id/createpageHiding_text"
+         android:layout_below="@+id/signup_img">
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Welcome"
+             android:textSize="25sp"
+             android:layout_marginStart="20dp"
+             android:padding="5dp"
+             android:textStyle="bold"/>
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Hii Lets Start"
+             android:textSize="25sp"
+             android:layout_marginStart="20dp"
+             android:padding="5dp"
+             android:textStyle="bold"/>
+     </LinearLayout>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          android:layout_marginTop="5dp"
+          android:layout_marginStart="20dp"
+          android:id="@+id/regPage"
+          android:layout_marginEnd="10dp"
+          android:layout_below="@id/createpageHiding_text"
+          >
+          <EditText
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:hint="Enter Valid E-maid "
+              android:id="@+id/emailIdBtn"
+              android:background="@drawable/cornal_round"
+              android:layout_margin="5dp"
+              android:inputType="textEmailAddress"
+              android:padding="10dp"/>
+          <EditText
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:hint="Enter Password "
+              android:id="@+id/passwordBtn"
+              android:background="@drawable/cornal_round"
+              android:layout_margin="5dp"
+              android:inputType="textPassword"
+              android:padding="10dp"/>
+          <EditText
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:hint="Enter Conform Password"
+              android:id="@+id/conformPasswordBtn"
+              android:background="@drawable/cornal_round"
+              android:layout_margin="5dp"
+              android:inputType="textPassword"
+              android:padding="10dp"/>
+          <Button
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="10dp"
+              android:padding="5dp"
+              android:layout_marginLeft="10dp"
+              android:text="create a account"
+              android:id="@+id/createAccountsubmitBtn"
+              android:textStyle="bold"
+              android:textSize="17sp"
+              android:textColor="@color/teal_200"
+              android:background="@color/status_bar_color"/>
+          <ProgressBar
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:padding="5dp"
+              android:visibility="gone"
+              android:id="@+id/progress_bar_btn"/>
+
+      </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/regPage"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:text="Already Created Account?"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/login_text_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="Login"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</RelativeLayout>

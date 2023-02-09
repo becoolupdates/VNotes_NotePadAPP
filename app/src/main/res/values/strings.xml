@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">V Notes </string>
+    <string name="notes_head_title">New Add Text</string>
+    <string name="delete_Note">Delete Note Details</string>
+</resources>

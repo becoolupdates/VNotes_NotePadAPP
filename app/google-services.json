@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "120011633481",
+    "project_id": "note-pro-48fa8",
+    "storage_bucket": "note-pro-48fa8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120011633481:android:6da9fe295234a282196098",
+        "android_client_info": {
+          "package_name": "com.vikas.notebookpro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "120011633481-7ej1u83t1ipslnbh8ljgaour11ngv92o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDr3u18RnJGwEC8MzpbU8nZJlrv3ROYILo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "120011633481-7ej1u83t1ipslnbh8ljgaour11ngv92o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

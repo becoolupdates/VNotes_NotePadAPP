@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/status_bar_color"
+    tools:context=".NotesWritting">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/note_title"
+        android:layout_margin="10dp">
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:paddingStart="10dp"
+             android:id="@+id/page_title_notes_id"
+             android:text="@string/notes_head_title"
+             android:textStyle="bold"
+             android:textColor="@color/notes_head"
+             android:textSize="35sp"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/save_Btn_id"
+            android:src="@drawable/ic_baseline_check_24"
+            android:padding="7dp"
+            android:background="?attr/selectableItemBackgroundBorderless" />
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/note_title">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:layout_below="@+id/note_title"
+            android:background="@drawable/cornal_notewritting_round"
+            android:backgroundTint="@color/white"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="15dp">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="title"
+                android:textStyle="bold"
+                android:padding="15dp"
+                android:id="@+id/title_id"
+                android:layout_margin="5dp"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:background="@drawable/cornal_round"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="content"
+                android:padding="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="5dp"
+                android:minLines="16"
+                android:textColor="@color/black"
+                android:id="@+id/context_id"
+                android:textSize="24sp"
+                android:gravity="top"
+                android:background="@drawable/cornal_round" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/delete_Note"
+                android:gravity="center"
+                android:layout_marginBottom="15dp"
+                android:visibility="visible"
+                android:textStyle="bold"
+                android:textColor="@color/delete_Note"
+                android:id="@+id/delete_Note_Btn"
+                android:textSize="30sp"
+                />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

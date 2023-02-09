@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main_color">#C9F4AA</color>
+    <color name="status_bar_color">#E5FDD1</color>
+    <color name="teal_200">#6F1AB6</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="notes_head">#674188</color>
+    <color name="delete_Note">#7286D3</color>
+</resources>
